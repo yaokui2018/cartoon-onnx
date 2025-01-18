@@ -1,6 +1,5 @@
 Flask==2.3.2
 joblib==1.4.2
-numpy==1.24.3
 opencv_python_headless==4.10.0.84
 scipy==1.14.1
 scikit-image
@@ -8,3 +7,14 @@ tensorflow==2.13.0
 tensorflow_intel==2.13.0
 tf_slim==1.1.0
 tqdm==4.66.5
+numpy==1.24.3
+
+# TensorFlow 转 ONNX
+tf2onnx==1.16.1
+onnx==1.15.0
+
+# 加载ONNX模型
+onnxruntime==1.16.1
+
+# GUI
+pyqt5==5.15.11

@@ -10,6 +10,7 @@
 **修改内容**：
 1. 增加TensorFlow转ONNX，提高推理效率，转换代码：`python model2onnx.py`
 2. onnx推理运行：`python cartoonizer_onnx.py`
+3. 增加GUI界面，`python gui.py`
 
 ---
 
@@ -23,6 +24,9 @@ TensorFlow 转 ONNX 需要的库：
 
 加载ONNX模型需要的库：
 - onnxruntime==1.16.1
+ 
+GUI界面
+- pyqt5==5.15.11
 
 ---
 
@@ -35,7 +39,20 @@ TensorFlow 转 ONNX 需要的库：
 
     <img src="test-out-onnx.jpg" width="150">
 
-## 运行
+
+## GUI界面
+![GUI](./assets/gui.png)
+
+成品：
+- [夸克网盘](https://pan.quark.cn/s/e88a4225154a)
+- [百度网盘](https://pan.baidu.com/s/1WIRAZl5lP6XBnUDsQQ2pGg?pwd=u4cg)
+
+
+## Web api
+#### 1. 本地运行：`python webapi.py`
+
+#### 2. 服务端部署：
+
 1.宝塔创建项目
 <img src="./assets/1.png">
 
